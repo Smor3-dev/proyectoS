@@ -1,0 +1,36 @@
+{
+  "name": "landing-page-little-moons-style",
+  "version": "1.0.0",
+  "description": "Landing page moderna inspirada en Little Moons con navbar centrado y Bootstrap responsive",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=index.html",
+    "sass": "sass --watch styles.scss:styles.css --style=expanded",
+    "sass-build": "sass styles.scss styles.css --style=compressed --no-source-map",
+    "build": "npm run sass-build",
+    "start": "npm run dev",
+    "preview": "live-server --port=8080 --no-browser"
+  },
+  "keywords": [
+    "landing-page",
+    "little-moons",
+    "bootstrap",
+    "aos",
+    "responsive",
+    "mochi",
+    "premium",
+    "navbar-centrado"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
