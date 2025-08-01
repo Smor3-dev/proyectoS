@@ -1,19 +1,19 @@
 // Variables
-$primary-color: #e74c3c;
+$primary-color: #c90c7a;
 $primary-dark: #c0392b;
-$secondary-color: #2c3e50;
-$secondary-dark: #1a252f;
+$secondary-color: #ff92e4;
+$secondary-dark: #46193a;
 $background-light: #f8f9fa;
 $background-gray: #e9ecef;
-$text-dark: #333;
-$text-light: #666;
-$text-lighter: #bbb;
+$text-dark: #c90c7a;
+$text-light: #c90c7a;
+$text-lighter: #ffffff;
 $white: #ffffff;
 
 // Colores del producto pistacho
-$pistachio-dark: #8B4513;
-$pistachio-medium: #D2691E;
-$pistachio-light: #F4A460;
+$pistachio-dark: #c90c7a;
+$pistachio-medium: #ff998e;
+$pistachio-light: #c0392b;
 
 // Mixins
 @mixin flex-center {
@@ -132,6 +132,12 @@ header {
     @include responsive(small-mobile) {
         font-size: 1.4rem !important;
     }
+
+    img {
+        width: 75px;
+        height: auto;
+        background-color: #bdbdbcc5;
+    }
 }
 
 // Links derecha  
@@ -249,6 +255,7 @@ header {
     border-radius: 15px;
     padding: 2rem;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
 
     .nav-link {
         font-size: 1.3rem !important;
